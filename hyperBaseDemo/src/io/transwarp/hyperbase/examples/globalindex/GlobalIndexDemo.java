@@ -88,7 +88,7 @@ public class GlobalIndexDemo {
 		IndexHTable hTable = null;
 		try {
 			hTable = new IndexHTable(conf, tableName);
-			hTable.setAutoFlushTo(true);
+			hTable.setAutoFlushTo(false);
 			List<Put> puts = new ArrayList<Put>();
 			byte[] familyBytes = columnFamily.getBytes();
 			byte[] qualifier = columnName.getBytes();
