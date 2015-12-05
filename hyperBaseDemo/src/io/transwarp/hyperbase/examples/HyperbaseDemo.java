@@ -142,10 +142,10 @@ public class HyperbaseDemo {
 
 	public static void main(String[] args) {
 		HyperbaseDemo hbd = new HyperbaseDemo();
-		 hbd.createTable();
+		hbd.createTable();
 		// hbd.putRecord();
 		// hbd.getRecord();
-//		hbd.insert();
+		// hbd.insert();
 		// hbd.get();
 
 	}

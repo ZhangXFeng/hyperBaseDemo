@@ -248,17 +248,6 @@ public class ConcurrentPuter {
 
 	}
 
-	// static class Range {
-	// public byte[] startKey;
-	// public byte[] endKey;
-	//
-	// public Range(byte[] startKey, byte[] endKey) {
-	// this.startKey = startKey;
-	// this.endKey = endKey;
-	// }
-	//
-	// }
-
 	public static void main(String[] args) {
 		ConcurrentPuter puter = new ConcurrentPuter("hyperbaseDemo", "cf");
 		puter.init();
